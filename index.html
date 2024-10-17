@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Joke Generator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Random Joke Generator</h1>
+
+    <!-- Joke category selection -->
+    <label for="joke-category">Choose a category:</label>
+    <select id="joke-category">
+      
+      <option value="programming">Programming</option>
+      <option value="miscellaneous">General</option>
+    </select>
+
+    <!-- Joke display section -->
+    <div id="joke" class="joke">Click the button to get a joke!</div>
+    <div id="loading-spinner" class="spinner hidden"></div>
+    <!-- Button to get new joke -->
+    
+    <button id="get-joke-btn">Get Another Joke</button>
+
+    <!-- Loading spinner (hidden by default) -->
+   
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
